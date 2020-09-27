@@ -1,0 +1,32 @@
+public class invoices {
+		String Name;
+		Integer Age;
+		String Sex;
+		
+		public invoices(String name, Integer age, String sex) {
+			super();
+			Name = name;
+			Age = age;
+			Sex = sex;
+		}
+		
+		public String getName() {
+			return Name;
+		}
+		public void setName(String name) {
+			Name = name;
+		}
+		public Integer getAge() {
+			return Age;
+		}
+		public void setAge(Integer age) {
+			Age = age;
+		}
+		public String getSex() {
+			return Sex;
+		}
+		public void setSex(String sex) {
+			Sex = sex;
+		}
+
+}
